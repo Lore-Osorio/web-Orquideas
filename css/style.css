@@ -1,0 +1,146 @@
+
+.skip-link{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #f1f5f3;
+    color: #000000;
+    padding: 8px 16px;
+    z-index: 100;
+    text-decoration: none;
+    transition: top 0.2s ease-in-out;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  background-color:#f1efeff1;
+} 
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px; 
+    width: 100%;
+    margin: 0;
+}  
+
+ nav li{
+  display: inline-block;
+  text-align: center;
+  background: #0cffdb;
+  border-radius: 5px;
+  border-top: 3px solid #f5f5f5;      
+  border-left: 3px solid #f5f5f5;    
+  border-bottom: 3px solid #555555;   
+  border-right: 3px solid #555555;
+  color: #f7f4f4;
+  font-weight: bold;
+  padding: 15px 20px;
+} 
+
+nav a{
+    text-decoration: none;
+    color: #0a0a0a;
+    display: block;
+}
+
+nav li:hover{
+    background: #555555;
+}  
+
+nav li:hover a{
+    color: #ffffff;
+}  
+header{
+     background-color: #000000;
+    padding: 30px 20px;
+} 
+
+header img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}     
+
+main h1{
+    display: block;
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+}
+
+main p{
+   line-height: 2;
+   text-align: center;
+   padding: 10px 40px;
+}
+
+div h2{
+    background-color:#0cffdb81 ;
+    text-align: center;
+}
+
+.marker li::marker{
+    color: #000000;
+font-weight: bold;
+ }
+
+.grid{
+  display: grid;
+  grid-template-columns: 30% 30%;
+  justify-content: center;
+  align-items: start;
+  row-gap: 15px;
+  column-gap: 12px;  
+}
+
+.grid img{
+    border: 3px solid #000000;
+    border-radius: 8px;
+    background-color:#bdbcbc ;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mas-info {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 40px;   
+    color: #7a3d8f;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #7a3d8f;
+    padding-bottom: 2px;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.mas-info:hover {
+    color: #000000;
+    border-color: #070707;
+}
+
+.mas-info::after {
+    content: " →";
+}
+
+footer{
+ background-color: #000000;
+ color: #636262;
+ text-align: center;
+ padding: 20px 20px;
+}
