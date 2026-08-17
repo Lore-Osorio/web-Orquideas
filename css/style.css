@@ -117,6 +117,14 @@ font-weight: bold;
   justify-content: space-around;
 }
 
+.grid img:nth-child(3){
+border-radius:50%;  
+} 
+
+.grid img:nth-child(4){
+border-radius:50%;  
+} 
+
 .mas-info {
     display: inline-block;
     margin-top: 16px;
